@@ -5,7 +5,7 @@ from src.logic import area, area_zone
 @click.command()
 @click.option(
     "--location",
-    help="This specifies the location you want to know the time. For example, Lagos or London",
+    help="This specifies the location you want to know the time. For example, Lagos or Ottawa",
 )
 @click.option(
     "--zone",
